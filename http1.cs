@@ -15,6 +15,7 @@ namespace temp
         }
 
 // Test
+// another test
         [Function("http1")]
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
