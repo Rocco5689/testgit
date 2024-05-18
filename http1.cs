@@ -14,6 +14,7 @@ namespace temp
             _logger = logger;
         }
 
+// Test
         [Function("http1")]
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequest req)
         {
